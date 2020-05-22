@@ -17,14 +17,14 @@ for i in range(R):
     a.append(b)
     print('   |', sum(b))
  
-for i in range(R):
-    print(" --", end='')
-print()
- 
-for i in range(R):
-    s = 0
-    for j in range(C):
-        s += a[j][i]
-    print("%3d" % s, end='')
-print()
+##for i in range(R):
+##    print(" --", end='')
+##print()
+## 
+##for i in range(R):
+##    s = 0
+##    for j in range(C):
+##        s += a[j][i]
+##    print("%3d" % s, end='')
+##print()
 
